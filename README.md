@@ -12,7 +12,7 @@ fully air-gapped. The entire app is one HTML file with no network egress.
 - **Never invent entropy:** all key material comes from user-supplied physical
   entropy (dice, coin flips, cards) or existing seeds — with live chi-squared
   fairness analysis that flags biased dice as you enter them.
-- **Tested like a consensus implementation:** 160+ test suites covering BIP32 /
+- **Tested like a consensus implementation:** 157 test suites covering BIP32 /
   39 / 44 / 49 / 84 / 85 / 86 / 88 / 321 / 352 / 388 derivation, descriptors,
   PSBT handling, and aezeed — differential fuzzing against independent
   reference implementations (including a C++ LifeHash reference), plus an
