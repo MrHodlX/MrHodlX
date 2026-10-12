@@ -32,6 +32,10 @@ fully air-gapped. The entire app is one HTML file with no network egress.
 - [Throwing 4 MB of garbage at an air-gapped page, every night](writing/throwing-garbage-at-an-airgapped-page.md)
   — adversarial whole-page testing: network taps, delivery proofs, and why a
   green run that never landed its payload is the worst outcome.
+- [When your test oracle is somebody else's code](writing/differential-fuzzing-against-the-reference.md)
+  — differential fuzzing against a C++ reference at a pinned commit, the 1%
+  of fingerprints two "correct" implementations disagree on, and fuzzing a
+  parser's tolerance instead of just its math.
 
 ## Focus
 
