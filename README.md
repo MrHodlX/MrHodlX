@@ -24,6 +24,12 @@ fully air-gapped. The entire app is one HTML file with no network egress.
 - **Rust/WASM for the hot paths** — hdkey derivation, PSBT parsing, vanity
   search — with explicit stack scrubbing for secret-bearing buffers.
 
+## Writing
+
+- [Byte-identical builds as a test, not a promise](writing/byte-identical-builds-as-a-test.md)
+  — how EntropyLab's CI makes reproducibility a property that fails the build
+  instead of a claim in a README.
+
 ## Focus
 
 - Bitcoin protocol security: derivation, parsing, PSBTs, script policies
