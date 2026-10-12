@@ -29,6 +29,9 @@ fully air-gapped. The entire app is one HTML file with no network egress.
 - [Byte-identical builds as a test, not a promise](writing/byte-identical-builds-as-a-test.md)
   — how EntropyLab's CI makes reproducibility a property that fails the build
   instead of a claim in a README.
+- [Throwing 4 MB of garbage at an air-gapped page, every night](writing/throwing-garbage-at-an-airgapped-page.md)
+  — adversarial whole-page testing: network taps, delivery proofs, and why a
+  green run that never landed its payload is the worst outcome.
 
 ## Focus
 
